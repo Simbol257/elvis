@@ -132,7 +132,7 @@ body {
   width: 90vw;
   aspect-ratio: 16/9;
   border-radius: 1rem;
-  border: 3px solid hsla(255, 100%, 100%, 0.3);
+  border: 3px solid hsla(255, 100%, 100%, 0.8);
 }
 
 iframe {
@@ -180,7 +180,7 @@ iframe {
 .vertical--line {
   width: 100px;
   aspect-ratio: 1;
-  border-left: 2px solid hsl(40,92%,62%);
+  border-left: 2px solid hsla(230, 0%, 100%, 1);
   transform: translateX(50%);
 }
 
@@ -324,7 +324,35 @@ iframe {
   margin-right: 20px;
   flex-shrink: 0;
 }
-
+.transformations{
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background: linear-gradient(to bottom right,#2540C6,#000,#2540C6);
+}
+.swiper{
+  display: flex;
+  justify-content: center;
+}
+.swiper-wrapper{
+ scale: .8;
+  overflow: hidden;
+}
+.swiper-slide{
+  border: .1px solid #2540C6;
+  border-radius: .5rem;
+  aspect-ratio: 9/16;
+}
+.swiper-button-container{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: .75rem;
+  margin: 2rem 0;
+  align-self: flex-end;
+}
+.swiper-button-next::after,.swiper-button-prev::after {
+  color: #fff;
+}
 .access {
   background: linear-gradient(to bottom right, #000 10%, #1D329B, #000 90%);
 }
