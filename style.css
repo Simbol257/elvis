@@ -109,7 +109,6 @@ body {
 
 .hero--headline {
   font-size: 1.6rem;
-  text-transform: capitalize;
   font-weight: 600;
   color: #FFFFFF;
   margin: 0 2rem;
@@ -120,7 +119,6 @@ body {
   font-size: 0.8rem;
   text-align: center;
   text-wrap: pretty;
-  text-transform: capitalize;
   color: hsla(0, 0%, 100%, 0.75);
   opacity: 0.75;
   margin: 0 1rem;
@@ -469,11 +467,9 @@ iframe {
   gap: 0.5rem;
 }
 .faq--question{
-  text-transform: capitalize;
   font-size: 1rem;
 }
 .faq--answer{
-  text-transform: capitalize;
   font-size: 0.8rem;
   color: hsla(0, 0%, 100%, 0.75);
 }
